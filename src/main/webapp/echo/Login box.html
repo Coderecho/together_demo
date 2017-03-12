@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		div{
+			top:0px;
+			left: 100px;
+			position:relative;
+		}
+		</style>
+	</head>
+	<body>
+		<form>
+			<label for="username"></label>
+			<input 
+				style="width:200px;"
+				type="text" 
+				name="username" 
+				id="username" 
+				value="" 
+				placeholder="邮箱/密码"/>
+			<br>
+			
+			<label for="pass"></label>
+			<input 
+				style="width:200px;"
+				type="password" 
+				name="pass" 
+				id="pass" 
+				value="" 
+				placeholder="密码"/>
+			<br>
+			
+			<div style="position: relative;top:-24px;left:175px;" id="Help">
+				<a style="text-decoration:none;font-size:12px;color:gray;"href="#">
+					帮助
+				</a>
+			</div>
+			<br>
+			
+			<button 
+				style="border-radius:5px;background:#30A181;width:100px;height:28px;color:#ffffff;"
+				type="button">登录豆瓣
+			</button>
+			<button 
+				style="border-radius:5px;background:#30A181;width:100px;height:28px;color:#ffffff;" 
+				type="button">注册账号
+			</button>
+			<br />
+			
+			<input type="checkbox"name="remember password"/>
+			<label style="font-size:12px;">记住我</label>
+		</form>
+	</body>
+</html>
