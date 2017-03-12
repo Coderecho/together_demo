@@ -4,15 +4,11 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<style type="text/css">
-		div{
-			top:0px;
-			left: 100px;
-			position:relative;
-		}
-		</style>
+*{vertical-align:middle;}
+</style>
 	</head>
 	<body>
-		<form>
+		<form style="position:absolute;top:50%;left:50%;width:350px;heigh:160px;margin-left:-175px;margin-top:-80px;">
 			<label for="username"></label>
 			<input 
 				style="width:200px;"
@@ -31,27 +27,23 @@
 				id="pass" 
 				value="" 
 				placeholder="密码"/>
-			<br>
-			
-			<div style="position: relative;top:-24px;left:175px;" id="Help">
+			<div style="position: relative;top:-24px;left:170px;" id="Help">
 				<a style="text-decoration:none;font-size:12px;color:gray;"href="#">
 					帮助
 				</a>
 			</div>
-			<br>
-			
 			<button 
 				style="border-radius:5px;background:#30A181;width:100px;height:28px;color:#ffffff;"
 				type="button">登录豆瓣
 			</button>
 			<button 
-				style="border-radius:5px;background:#30A181;width:100px;height:28px;color:#ffffff;" 
+				style="border-radius:5px;background:#dcf5ef;width:100px;height:28px;color:#30A181;" 
 				type="button">注册账号
 			</button>
 			<br />
 			
-			<input type="checkbox"name="remember password"/>
-			<label style="font-size:12px;">记住我</label>
+			<input style="position:relative;left:-1px;vertical-align:middle;"type="checkbox" name="remember password"/>
+			<label style="position: relative;left:-5px;font-size:12px;">记住我</label>
 		</form>
 	</body>
 </html>
