@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			html,body{width: 100%;height: 100%;}
+			body{
+				background-image: url(Girl.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			div{
+				animation: QRcodemoving 1s;
+				-moz-animation:QRcodemoving 1s;/* Firefox */
+				-webkit-animation:QRcodemoving 1s;/* Safari 和 Chrome */
+				-o-animation:QRcodemoving 1s;/* Opera */
+				position: absolute;
+				bottom: 5px;
+				right:5px;
+				}
+			img{
+				
+				max-height: 250px;
+				max-width: 250px;
+			}
+			@keyframes QRcodemoving{
+				0% {right:0px;bottom:0px;}
+				25%{right:200px; bottom:0px;}
+				50%{right:200px; bottom:200px;}
+				75%{right:0px; bottom:200px;}
+				100%{right:0px; bottom:0px;}
+			@-moz-keyframes QRcodemoving{
+				0% {right:0px;bottom:0px;}
+				25%{right:200px; bottom:0px;}
+				50%{right:200px; bottom:200px;}
+				75%{right:0px; bottom:200px;}
+				100%{right:0px; bottom:0px;}
+			@-webkit-keyframes QRcodemoving{
+				0% {right:0px;bottom:0px;}
+				25%{right:200px; bottom:0px;}
+				50%{right:200px; bottom:200px;}
+				75%{right:0px; bottom:200px;}
+				100%{right:0px; bottom:0px;}
+				100%{right:0px; bottom:0px;}
+			@-o-keyframes QRcodemoving{
+				0% {right:0px;bottom:0px;}
+				25%{right:200px; bottom:0px;}
+				50%{right:200px; bottom:200px;}
+				75%{right:0px; bottom:200px;}
+				100%{right:0px; bottom:0px;}
+			}
+		</style>
+	</head>
+	<body >
+		<div><img src="QRcode.jpg"></div>
+	</body>
+</html>
